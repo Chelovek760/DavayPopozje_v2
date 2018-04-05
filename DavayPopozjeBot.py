@@ -25,10 +25,9 @@ class DavayPopozjeBot(object):
         get_result = self.get_updates()
 
         if len(get_result) > 0:
-            last_update = get_result[-1]
-        else:
             last_update = get_result[len(get_result)]
-
+        else:
+            last_update=get_result[0]
         return last_update
 Bot = DavayPopozjeBot()
 greetings=['ку','привет']
