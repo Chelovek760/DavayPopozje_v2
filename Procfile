@@ -1,1 +1,1 @@
-web: python DavayPopozjeBot.py
+bot: python DavayPopozjeBot.py
